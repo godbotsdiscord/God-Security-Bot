@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": "./",
+    "paths": {
+      "@root/*": ["./*"],
+      "@commands/*": ["./src/commands/*"],
+      "@features/*": ["./src/features/*"],
+      "@schemas/*": ["./src/schemas/*"],
+      "@src/*": ["./src/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
+
+//Made by Werty, developer of God Bots Discord
+//Make sure you liked the repostory - https://github.com/godbotsdiscord/God-Security-v1
